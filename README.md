@@ -5,7 +5,7 @@ This notebook shows how to compute the VaR and the CVaR on P/L data.
 
 ### Load the data and compute the daily P/L.
 
-The data consists in only one asset, and the daily P/L data is compute as the difference
+The data consists in only one asset, and the daily P/L data is computed as the difference
 from 2 successive close prices.
 
 ![](png/p-and-l.png)
@@ -22,7 +22,7 @@ from 2 successive close prices.
 
 ### Bootstrapped VaR & CVaR
 
-Another to estimate the VaR and CVaR is to compute them on a sample of the original P/L data.
+Another way to estimate the VaR and CVaR is to compute them on a sample of the original P/L data.
 
 Here the samples distribution:
 
